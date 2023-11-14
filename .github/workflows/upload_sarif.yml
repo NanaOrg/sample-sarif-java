@@ -1,7 +1,7 @@
 name: "upload_sarif"
 
 # Run workflow each time code is pushed to your repository and on a schedule.
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
